@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+
+	<title>museo 1333</title>
+
+	<link rel="stylesheet" href="style.css">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="jquery.mousewheel.js"></script>
+	<script>
+	$(function(){
+		$("#page-wrap").wrapInner("<table cellspacing='30'><tr>");
+		$(".post").wrap("<td></td>");
+		$("body").mousewheel(function(event, delta) {
+			this.scrollLeft -= (delta * 30);
+			event.preventDefault();
+		});
+	});
+	</script>
+</head>
+
+<body>
+
+	<h1>museo 1333</h1>
+
+	<div id="page-wrap">
+
+		<div class="post">
+			<img src="http://via.placeholder.com/500x281" class="image"/>
+		</div>
+
+		<div class="post">
+			<img src="http://via.placeholder.com/500x281" class="image2"/>
+		</div>
+
+		<div class="post">
+			<img src="http://via.placeholder.com/500x281" class="image2"/>
+		</div>
+
+		<div class="post">
+			<img src="http://via.placeholder.com/500x281" class="image"/>
+		</div>
+
+		<div class="post">
+			<img src="http://via.placeholder.com/500x281.jpg" class="image2"/>
+		</div>
+
+		<div class="post">
+			<img src="http://via.placeholder.com/500x281.jpg" class="image"/>
+		</div>
+
+		<div class="post">
+			<img src="http://via.placeholder.com/500x281.jpg" class="image2"/>
+		</div>
+
+		<div class="post">
+			<img src="http://via.placeholder.com/500x281.jpg" class="image"/>
+		</div>
+
+		<div class="post">
+			<img src="http://via.placeholder.com/500x281.jpg" class="image"/>
+		</div>
+
+		<div class="post">
+			<img src="http://via.placeholder.com/500x281.jpg" class="image"/>
+		</div>
+
+		<div class="post">
+			<img src="http://via.placeholder.com/500x281.jpg" class="image2"/>
+		</div>
+
+		<div class="post">
+			<img src="http://via.placeholder.com/500x281.jpg" class="image2"/>
+		</div>
+
+		<div class="post">
+			<img src="http://via.placeholder.com/500x281.jpg" class="image2"/>
+		</div>
+
+		<div class="post">
+			<img src="http://via.placeholder.com/500x281.jpg" class="image"/>
+		</div>
+
+		<div class="post">
+			<img src="http://via.placeholder.com/500x281.jpg" class="image"/>
+		</div>
+
+	</div>
+
+</body>
+
+</html>
